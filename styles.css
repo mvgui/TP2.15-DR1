@@ -1,0 +1,87 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+}
+h2 {
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 12px;
+}
+
+.tamanho {
+  display: flex;
+  flex-direction: column;
+  width: 815px;
+  height: 315px;
+  padding: 8%;
+}
+
+.img {
+  width: 150px;
+  height: 315px;
+  border: 3px solid grey;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 5px 5px 15px 5px white;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 150px;
+  height: 315px;
+}
+
+.alegria {
+  background-image: url(img/papel2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.alegria:hover {
+  background-image: url(img/papel1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.tristeza {
+  background-image: url(img/papel1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tristeza:hover {
+  background-image: url(img/papel3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.medo {
+  background-image: url(img/papel3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.medo:hover {
+  background-image: url(img/papel5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.raiva {
+  background-image: url(img/papel4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.raiva:hover {
+  background-image: url(img/papel2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.nojinho {
+  background-image: url(img/papel5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.nojinho:hover {
+  background-image: url(img/papel4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
